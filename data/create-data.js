@@ -30,8 +30,8 @@ const removeStatusLabels = ( label ) => {
 
 const formatIssueToJSONString = ( issue ) => {
 	return JSON.stringify( {
-		context: issue.body,
-		completion: JSON.stringify( issue.labels ),
+		context: issue.body + '\n\n###\n\n',
+		completion: ' ' + JSON.stringify( issue.labels ),
 	} );
 };
 
