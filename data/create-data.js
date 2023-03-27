@@ -1,5 +1,5 @@
 const { Octokit } = require( 'octokit' );
-const { writeFile } = require( 'node:fs/promises' );
+const { appendFile } = require( 'node:fs/promises' );
 
 const octokit = new Octokit( {
 	auth: process.env.GITHUB_TOKEN,
@@ -72,7 +72,7 @@ const createJSONLFile = async () => {
 	const data = issues.map( formatIssueToJSONString );
 
 	try {
-		await writeFile( 'data/data.jsonl', data.join( '\n' ) );
+		await appendFile( 'data/data.jsonl', data.join( '\n' ) + '\n' );
 		return issues;
 	} catch ( err ) {
 		console.error( err );
