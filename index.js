@@ -1,10 +1,9 @@
 const { Octokit } = require( 'octokit' );
+const { writeFile } = require( 'node:fs/promises' );
 
 const octokit = new Octokit( {
 	auth: process.env.GITHUB_TOKEN,
 } );
-
-const labelsToFilterOut = [];
 
 const cleanIssueBody = ( body ) => {
 	return (
@@ -13,6 +12,19 @@ const cleanIssueBody = ( body ) => {
 			.replace( /### WordPress Environment(.|\t|\r|\n|\f)*/g, '' )
 			// Remove prerequisites
 			.replace( /### Prerequisites(.|\t|\r|\n|\f)*duplicate\.\n/, '' )
+			// Remove other issue text
+			.replace(
+				/<!-- This form is for other issue types(.|\t|\r|\n|\f)*Issue Description/gm,
+				''
+			)
+	);
+};
+
+const removeStatusLabels = ( label ) => {
+	return (
+		! /needs:/gm.test( label.name ) ||
+		! /status:/gm.test( label.name ) ||
+		! /type:/gm.test( label.name )
 	);
 };
 
@@ -22,7 +34,7 @@ const getIssues = async () => {
 		{
 			owner: 'woocommerce',
 			repo: 'woocommerce',
-			per_page: 10,
+			per_page: 20,
 			state: 'closed',
 		}
 	);
@@ -37,13 +49,33 @@ const getIssues = async () => {
 				return {
 					number: issue.number,
 					body: cleanIssueBody( issue.body ),
-					labels: issue.labels.map( ( label ) => label.id ), // filter out needs: triage etc
+					labels: issue.labels
+						.filter( removeStatusLabels )
+						.map( ( label ) => label.id ),
 				};
 			} )
 	);
 };
 
-getIssues().then( console.log );
-// getIssues();
+const formatIssueToJSONString = ( issue ) => {
+	return JSON.stringify( {
+		context: issue.body,
+		completion: JSON.stringify( issue.labels ),
+	} );
+};
+
+const createJSONLFile = async () => {
+	const issues = await getIssues();
+	const data = issues.map( formatIssueToJSONString );
+
+	try {
+		await writeFile( 'data.jsonl', data.join( '\n' ) );
+		return issues;
+	} catch ( err ) {
+		console.error( err );
+	}
+};
+
+createJSONLFile().then( console.log );
 
 // console.log(process.env.OPENAI_API_KEY);
