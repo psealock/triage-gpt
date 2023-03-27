@@ -22,8 +22,8 @@ const cleanIssueBody = ( body ) => {
 
 const removeStatusLabels = ( label ) => {
 	return (
-		! /needs:/gm.test( label.name ) ||
-		! /status:/gm.test( label.name ) ||
+		! /needs:/gm.test( label.name ) &&
+		! /status:/gm.test( label.name ) &&
 		! /type:/gm.test( label.name )
 	);
 };
@@ -41,10 +41,11 @@ const getIssues = async () => {
 
 	return (
 		data
-			// ignore pull requests
+			// Ignore pull requests
 			.filter( ( issue ) => {
 				return issue.pull_request === undefined;
 			} )
+			// Clean body and labels
 			.map( ( issue ) => {
 				return {
 					number: issue.number,
@@ -54,6 +55,8 @@ const getIssues = async () => {
 						.map( ( label ) => label.id ),
 				};
 			} )
+			// Remove issues without labels
+			.filter( ( issue ) => issue.labels.length > 0 )
 	);
 };
 
