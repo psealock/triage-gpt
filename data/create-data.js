@@ -28,6 +28,13 @@ const removeStatusLabels = ( label ) => {
 	);
 };
 
+const formatIssueToJSONString = ( issue ) => {
+	return JSON.stringify( {
+		context: issue.body,
+		completion: JSON.stringify( issue.labels ),
+	} );
+};
+
 const getIssues = async () => {
 	const { data } = await octokit.request(
 		'GET /repos/{owner}/{repo}/issues',
@@ -60,19 +67,12 @@ const getIssues = async () => {
 	);
 };
 
-const formatIssueToJSONString = ( issue ) => {
-	return JSON.stringify( {
-		context: issue.body,
-		completion: JSON.stringify( issue.labels ),
-	} );
-};
-
 const createJSONLFile = async () => {
 	const issues = await getIssues();
 	const data = issues.map( formatIssueToJSONString );
 
 	try {
-		await writeFile( 'data.jsonl', data.join( '\n' ) );
+		await writeFile( 'data/data.jsonl', data.join( '\n' ) );
 		return issues;
 	} catch ( err ) {
 		console.error( err );
