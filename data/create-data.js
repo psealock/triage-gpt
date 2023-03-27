@@ -28,7 +28,7 @@ const removeStatusLabels = ( label ) => {
 	);
 };
 
-const formatIssueToJSONString = ( issue ) => {
+const formatIssues = ( issue ) => {
 	return JSON.stringify( {
 		context: issue.body + '\n\n###\n\n',
 		completion: ' ' + JSON.stringify( issue.labels ),
@@ -41,7 +41,8 @@ const getIssues = async () => {
 		{
 			owner: 'woocommerce',
 			repo: 'woocommerce',
-			per_page: 20,
+			per_page: 100,
+			page: 1,
 			state: 'closed',
 		}
 	);
@@ -69,7 +70,7 @@ const getIssues = async () => {
 
 const createJSONLFile = async () => {
 	const issues = await getIssues();
-	const data = issues.map( formatIssueToJSONString );
+	const data = issues.map( formatIssues );
 
 	try {
 		await appendFile( 'data/data.jsonl', data.join( '\n' ) + '\n' );
@@ -79,6 +80,6 @@ const createJSONLFile = async () => {
 	}
 };
 
-createJSONLFile().then( console.log );
+createJSONLFile();
 
 // console.log(process.env.OPENAI_API_KEY);
