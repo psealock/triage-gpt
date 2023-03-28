@@ -38,6 +38,7 @@ const cleanIssueBody = ( body ) => {
 			.replace( '### Describe the bug\r\n\r\n', '' )
 			.replace( '**Description:** ', '' )
 			.replace( '**Description**\r\n', '' )
+			.replace( '### Description\r\n\r\n', '' )
 	);
 };
 
@@ -113,5 +114,3 @@ const createJSONLFile = async ( pages ) => {
 };
 
 createJSONLFile( 30 );
-
-// console.log(process.env.OPENAI_API_KEY);
