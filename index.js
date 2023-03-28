@@ -1,6 +1,8 @@
 const { Octokit } = require( 'octokit' );
 const { cleanIssueBody } = require( './data/lib' );
-const { exec } = require( 'child_process' );
+const util = require( 'node:util' );
+const exec = util.promisify( require( 'node:child_process' ).exec );
+const { Command } = require( 'commander' );
 
 const octokit = new Octokit( {
 	auth: process.env.GITHUB_TOKEN,
@@ -31,19 +33,43 @@ const getCompletion = async ( number ) => {
 	const api = `openai api completions.create -m curie:ft-personal-2023-03-28-04-32-35 -p "${ prompt }"`;
 
 	console.log( `Calling openai api` );
-	exec( api, ( error, stdout, stderr ) => {
-		if ( error ) {
-			console.log( `error: ${ error.message }` );
-			return;
-		}
-		if ( stderr ) {
-			console.log( `stderr: ${ stderr }` );
-			return;
-		}
-		console.log( `stdout: ${ stdout }` );
-	} );
+
+	const { stdout, stderr } = await exec( api );
+	if ( stderr ) {
+		console.log( `stderr: ${ stderr }` );
+		return stderr;
+	}
+	return stdout;
 };
 
-getCompletion( 37416 );
+const program = new Command();
 
-// 37462 -> 1891051446, "focus: onboarding wizard [team:Ghidorah]"
+program
+	.name( 'triage-gpt' )
+	.description( 'CLI to triage WooCommerce issues' )
+	.version( '0.0.1' );
+
+program
+	.command( 'triage' )
+	.description( 'get a focus label' )
+	.argument( '<issueNumber>', 'issue to triage' )
+	.action( async ( issueNumber ) => {
+		const completion = await getCompletion( issueNumber );
+		console.log( completion );
+		// const completion = '[3943425133] paul was here [3943425720]';
+
+		const regex = /\[(\d*)\]/gm;
+		let resultsArr = [];
+		const labelIds = [];
+
+		while ( ( resultsArr = regex.exec( completion ) ) !== null ) {
+			console.log( `Found label id ${ resultsArr[ 1 ] }` );
+			labelIds.push( resultsArr[ 1 ] );
+		}
+		if ( labelIds.length === 0 ) {
+			console.log( 'No labels found' );
+			return;
+		}
+	} );
+
+program.parse(); //37416
