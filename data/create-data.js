@@ -33,6 +33,11 @@ const cleanIssueBody = ( body ) => {
 				'### Prerequisites\r\n\r\n- [ ] I have carried out troubleshooting steps and I believe I have found a bug.\r\n- [ ] I have searched for similar bugs in both open and closed issues and cannot find a duplicate.\r\n\r\n',
 				''
 			)
+			.replace( '**Issue Description', '' )
+			.replace( '**User story**\r\n\r\n- ', '' )
+			.replace( '### Describe the bug\r\n\r\n', '' )
+			.replace( '**Description:** ', '' )
+			.replace( '**Description**\r\n', '' )
 	);
 };
 
@@ -87,10 +92,7 @@ const getIssues = async ( page ) => {
 };
 
 const createJSONLFile = async ( pages ) => {
-	for ( let i = 1; i <= pages; i++ ) {
-		// if ( i === 9 ) {
-		// 	continue;
-		// }
+	for ( let i = 29; i <= pages; i++ ) {
 		console.log( `Fetching page ${ i }` );
 		const issues = await getIssues( i );
 		console.log( `Fetched ${ issues.length } issues` );
@@ -107,6 +109,6 @@ const createJSONLFile = async ( pages ) => {
 	}
 };
 
-createJSONLFile( 8 );
+createJSONLFile( 30 );
 
 // console.log(process.env.OPENAI_API_KEY);
