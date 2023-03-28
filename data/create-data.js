@@ -78,5 +78,3 @@ const createJSONLFile = async ( pages ) => {
 };
 
 createJSONLFile( 30 );
-
-// openai api completions.create -m curie:ft-personal-2023-03-28-04-32-35 -p <YOUR_PROMPT>

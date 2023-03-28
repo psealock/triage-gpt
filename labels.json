@@ -1,0 +1,1262 @@
+[
+	{
+		"id": 3943425992,
+		"node_id": "MDU6TGFiZWwzOTQzNDI1OTky",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/category:%20extensibility",
+		"name": "category: extensibility",
+		"color": "db8c5c",
+		"default": false,
+		"description": null
+	},
+	{
+		"id": 4254291488,
+		"node_id": "LA_kwDOACFDUM79k1Yg",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/Epic",
+		"name": "Epic",
+		"color": "4660F9",
+		"default": false,
+		"description": null
+	},
+	{
+		"id": 702347761,
+		"node_id": "MDU6TGFiZWw3MDIzNDc3NjE=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20accessibility%20[team:Proton]",
+		"name": "focus: accessibility [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "The issue/PR is related to accessibility."
+	},
+	{
+		"id": 1903053061,
+		"node_id": "MDU6TGFiZWwxOTAzMDUzMDYx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20action%20scheduler%20[team:Proton]",
+		"name": "focus: action scheduler [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to action scheduler."
+	},
+	{
+		"id": 3943426544,
+		"node_id": "MDU6TGFiZWwzOTQzNDI2NTQ0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20activity%20panel%20[team:Mothra]",
+		"name": "focus: activity panel [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051439,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDM5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20advanced%20settings%20[team:Proton]",
+		"name": "focus: advanced settings [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to advanced settings."
+	},
+	{
+		"id": 3943425133,
+		"node_id": "MDU6TGFiZWwzOTQzNDI1MTMz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20analytics%20[team:Mothra]",
+		"name": "focus: analytics [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 5222414669,
+		"node_id": "LA_kwDOACFDUM8AAAABN0e5TQ",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20api%20tests%20[team:Solaris]",
+		"name": "focus: api tests [team:Solaris]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to API tests."
+	},
+	{
+		"id": 1891051437,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDM3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20calculation%20[team:Proton]",
+		"name": "focus: calculation [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to calculations (for example, rounding issues)."
+	},
+	{
+		"id": 1891051436,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDM2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20cart%20[team:Proton]",
+		"name": "focus: cart [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to cart page."
+	},
+	{
+		"id": 1891051438,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDM4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20category%20[team:Proton]",
+		"name": "focus: category [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to categories."
+	},
+	{
+		"id": 1891051440,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20checkout%20[team:Proton]",
+		"name": "focus: checkout [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to checkout page."
+	},
+	{
+		"id": 3943425720,
+		"node_id": "MDU6TGFiZWwzOTQzNDI1NzIw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20components%20[team:Ghidorah]",
+		"name": "focus: components [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051442,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20coupon%20[team:Proton]",
+		"name": "focus: coupon [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to coupons."
+	},
+	{
+		"id": 1891051450,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDUw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20csv%20import/export%20[team:Proton]",
+		"name": "focus: csv import/export [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to CSV import and export."
+	},
+	{
+		"id": 1891051444,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20currency%20[team:Proton]",
+		"name": "focus: currency [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to currencies."
+	},
+	{
+		"id": 3834300886,
+		"node_id": "LA_kwDOACFDUM7kisnW",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20custom%20order%20tables%20[team:Proton]",
+		"name": "focus: custom order tables [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 3943426309,
+		"node_id": "MDU6TGFiZWwzOTQzNDI2MzA5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20customer%20effort%20score%20[team:Mothra]",
+		"name": "focus: customer effort score [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 2190477857,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODU3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20data-store%20[team:Proton]",
+		"name": "focus: data-store [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to custom tables."
+	},
+	{
+		"id": 5222415782,
+		"node_id": "LA_kwDOACFDUM8AAAABN0e9pg",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20e2e%20tests%20[team:Solaris]",
+		"name": "focus: e2e tests [team:Solaris]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to e2e tests"
+	},
+	{
+		"id": 1891051441,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20email%20[team:Proton]",
+		"name": "focus: email [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to emails."
+	},
+	{
+		"id": 3943426545,
+		"node_id": "MDU6TGFiZWwzOTQzNDI2NTQ1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20home%20screen%20[team:Ghidorah]",
+		"name": "focus: home screen [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051447,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20html/css%20[team:Proton]",
+		"name": "focus: html/css [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to HTML/CSS."
+	},
+	{
+		"id": 468434635,
+		"node_id": "MDU6TGFiZWw0Njg0MzQ2MzU=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20i18n%20[team:Proton]",
+		"name": "focus: i18n [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "The issue/PR is related to internationalization."
+	},
+	{
+		"id": 3943424960,
+		"node_id": "MDU6TGFiZWwzOTQzNDI0OTYw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20inbox%20[team:Mothra]",
+		"name": "focus: inbox [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 4327454247,
+		"node_id": "LA_kwDOACFDUM8AAAABAe-2Jw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20marketing%20[team:Ventures]",
+		"name": "focus: marketing [team:Ventures]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Marketing page in WooCommerce Admin, i.e. `/wp-admin/admin.php?page=wc-admin&path=%2Fmarketing`."
+	},
+	{
+		"id": 1891051455,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20mobile%20[team:Proton]",
+		"name": "focus: mobile [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to how WooCommerce works on mobile devices."
+	},
+	{
+		"id": 1891051451,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDUx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20my%20account%20[team:Proton]",
+		"name": "focus: my account [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to my account page."
+	},
+	{
+		"id": 3943425968,
+		"node_id": "MDU6TGFiZWwzOTQzNDI1OTY4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20navigation%20[team:Mothra]",
+		"name": "focus: navigation [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 4370026978,
+		"node_id": "LA_kwDOACFDUM8AAAABBHlR4g",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20new%20product%20ux%20[team:Mothra]",
+		"name": "focus: new product ux [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "revamped product management experience"
+	},
+	{
+		"id": 1891051448,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20notice%20[team:Proton]",
+		"name": "focus: notice [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to notices."
+	},
+	{
+		"id": 3943424887,
+		"node_id": "MDU6TGFiZWwzOTQzNDI0ODg3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20onboarding%20[team:Ghidorah]",
+		"name": "focus: onboarding [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051446,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20onboarding%20wizard%20[team:Ghidorah]",
+		"name": "focus: onboarding wizard [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issue related to onboarding wizard."
+	},
+	{
+		"id": 1891051458,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20order%20[team:Proton]",
+		"name": "focus: order [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to orders."
+	},
+	{
+		"id": 4691898321,
+		"node_id": "LA_kwDOACFDUM8AAAABF6iv0Q",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20page%20header%20[team:Proton]",
+		"name": "focus: page header [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051449,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20payment%20[team:Proton]",
+		"name": "focus: payment [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to payments."
+	},
+	{
+		"id": 1891051443,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20paypal%20[team:Proton]",
+		"name": "focus: paypal [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to PayPal."
+	},
+	{
+		"id": 472334370,
+		"node_id": "MDU6TGFiZWw0NzIzMzQzNzA=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20performance%20[team:Proton]",
+		"name": "focus: performance [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "The issue/PR is related to performance."
+	},
+	{
+		"id": 3845016070,
+		"node_id": "LA_kwDOACFDUM7lLkoG",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20performance%20tests%20[team:Solaris]",
+		"name": "focus: performance tests [team:Solaris]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "The issue/PR is release to performance testing."
+	},
+	{
+		"id": 1891051457,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20permalink%20[team:Proton]",
+		"name": "focus: permalink [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to permalinks."
+	},
+	{
+		"id": 858478645,
+		"node_id": "MDU6TGFiZWw4NTg0Nzg2NDU=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20privacy%20[team:Proton]",
+		"name": "focus: privacy [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "GDPR / Privacy related."
+	},
+	{
+		"id": 1891051461,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDYx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20product%20[team:Mothra]",
+		"name": "focus: product [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to product or product page."
+	},
+	{
+		"id": 4370024739,
+		"node_id": "LA_kwDOACFDUM8AAAABBHlJIw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20product%20management%20[team:Mothra]",
+		"name": "focus: product management [team:Mothra]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "related to product creation and editing"
+	},
+	{
+		"id": 5232776504,
+		"node_id": "LA_kwDOACFDUM8AAAABN-XVOA",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20react%20admin",
+		"name": "focus: react admin",
+		"color": "ededed",
+		"default": false,
+		"description": null
+	},
+	{
+		"id": 3943104021,
+		"node_id": "LA_kwDOACFDUM7rBv4V",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20react%20admin%20[team:Ghidorah]",
+		"name": "focus: react admin [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to the React-based admin interface."
+	},
+	{
+		"id": 1891051445,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDQ1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20refund%20[team:Proton]",
+		"name": "focus: refund [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to refunds."
+	},
+	{
+		"id": 2009677615,
+		"node_id": "MDU6TGFiZWwyMDA5Njc3NjE1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20search%20[team:Proton]",
+		"name": "focus: search [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to search."
+	},
+	{
+		"id": 3943424824,
+		"node_id": "MDU6TGFiZWwzOTQzNDI0ODI0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20settings%20[team:Proton]",
+		"name": "focus: settings [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 3943424841,
+		"node_id": "MDU6TGFiZWwzOTQzNDI0ODQx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20setup%20checklist%20[team:Ghidorah]",
+		"name": "focus: setup checklist [team:Ghidorah]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 1891051459,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20shipping%20[team:Escargot]",
+		"name": "focus: shipping [team:Escargot]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to shipping."
+	},
+	{
+		"id": 1891051454,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20shop%20[team:Proton]",
+		"name": "focus: shop [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to shop page."
+	},
+	{
+		"id": 3845073088,
+		"node_id": "LA_kwDOACFDUM7lLyjA",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20smoke%20tests%20[team:Solaris]",
+		"name": "focus: smoke tests [team:Solaris]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "These Issues/PRs relate to smoke testing."
+	},
+	{
+		"id": 1891051471,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDcx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20stock%20[team:Proton]",
+		"name": "focus: stock [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to stock."
+	},
+	{
+		"id": 1891051452,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDUy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20system%20status%20report%20[team:Proton]",
+		"name": "focus: system status report [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to system status report."
+	},
+	{
+		"id": 1891051453,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDUz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20tax%20[team:Proton]",
+		"name": "focus: tax [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to taxes."
+	},
+	{
+		"id": 33006876,
+		"node_id": "MDU6TGFiZWwzMzAwNjg3Ng==",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20templating%20[team:Proton]",
+		"name": "focus: templating [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issue related to WooCommerce templates."
+	},
+	{
+		"id": 5222417082,
+		"node_id": "LA_kwDOACFDUM8AAAABN0fCug",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20testing%20workflows%20[team:Solaris]",
+		"name": "focus: testing workflows [team:Solaris]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to test related workflows (daily, release, merge to trunk etc)."
+	},
+	{
+		"id": 1891051456,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDU2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20variation%20[team:Proton]",
+		"name": "focus: variation [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to product variations."
+	},
+	{
+		"id": 2258932484,
+		"node_id": "MDU6TGFiZWwyMjU4OTMyNDg0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20wc%20rest%20api%20[team:Proton]",
+		"name": "focus: wc rest api [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to WooCommerce REST API."
+	},
+	{
+		"id": 1891051460,
+		"node_id": "MDU6TGFiZWwxODkxMDUxNDYw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20wc-cli%20[team:Proton]",
+		"name": "focus: wc-cli [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to WooCommerce CLI."
+	},
+	{
+		"id": 641282302,
+		"node_id": "MDU6TGFiZWw2NDEyODIzMDI=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20wccom%20[team:Proton]",
+		"name": "focus: wccom [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to communication with woocommerce.com."
+	},
+	{
+		"id": 3943425903,
+		"node_id": "MDU6TGFiZWwzOTQzNDI1OTAz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20wcpay%20[team:Proton]",
+		"name": "focus: wcpay [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 2046308337,
+		"node_id": "MDU6TGFiZWwyMDQ2MzA4MzM3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20webhook%20[team:Proton]",
+		"name": "focus: webhook [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to WooCommerce webhooks."
+	},
+	{
+		"id": 2190477839,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODM5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/focus:%20wp-cli%20[team:Proton]",
+		"name": "focus: wp-cli [team:Proton]",
+		"color": "ff6b00",
+		"default": false,
+		"description": "Issues related to WordPress CLI."
+	},
+	{
+		"id": 1589316689,
+		"node_id": "MDU6TGFiZWwxNTg5MzE2Njg5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/hacktoberfest",
+		"name": "hacktoberfest",
+		"color": "000000",
+		"default": false,
+		"description": "Small issues for those interested in participating in Hacktoberfest."
+	},
+	{
+		"id": 5302875563,
+		"node_id": "LA_kwDOACFDUM8AAAABPBN1qw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/metric:%20revised%20testing%20instructions",
+		"name": "metric: revised testing instructions",
+		"color": "fef2c0",
+		"default": false,
+		"description": "A tracking label for cases when the testing instructions were revised."
+	},
+	{
+		"id": 33006759,
+		"node_id": "MDU6TGFiZWwzMzAwNjc1OQ==",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20author%20feedback",
+		"name": "needs: author feedback",
+		"color": "ffea00",
+		"default": false,
+		"description": "The issue/PR needs a response from any of the parties involved in the issue."
+	},
+	{
+		"id": 563079913,
+		"node_id": "MDU6TGFiZWw1NjMwNzk5MTM=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20design",
+		"name": "needs: design",
+		"color": "ffea00",
+		"default": false,
+		"description": "The issue requires design input/work from a designer."
+	},
+	{
+		"id": 4439135690,
+		"node_id": "LA_kwDOACFDUM8AAAABCJfVyg",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20design%20feedback",
+		"name": "needs: design feedback",
+		"color": "ffea00",
+		"default": false,
+		"description": "Issues for which we requested feedback from design team."
+	},
+	{
+		"id": 2335822610,
+		"node_id": "MDU6TGFiZWwyMzM1ODIyNjEw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20developer%20feedback",
+		"name": "needs: developer feedback",
+		"color": "ffea00",
+		"default": false,
+		"description": "Issues that need feedback from one of the WooCommerce Core developers."
+	},
+	{
+		"id": 2486116960,
+		"node_id": "MDU6TGFiZWwyNDg2MTE2OTYw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20discussion",
+		"name": "needs: discussion",
+		"color": "ffea00",
+		"default": false,
+		"description": "Issue that either needs discussion or pending decision (not for support requests)."
+	},
+	{
+		"id": 2258942557,
+		"node_id": "MDU6TGFiZWwyMjU4OTQyNTU3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20documentation",
+		"name": "needs: documentation",
+		"color": "ffea00",
+		"default": false,
+		"description": "The issue/PR requires documentation to be added."
+	},
+	{
+		"id": 3966403896,
+		"node_id": "LA_kwDOACFDUM7saoU4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20template",
+		"name": "needs: template",
+		"color": "ffea00",
+		"default": false,
+		"description": "Issue needs bug issues template to be filled"
+	},
+	{
+		"id": 5302869929,
+		"node_id": "LA_kwDOACFDUM8AAAABPBNfqQ",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20testing%20instructions%20revisions",
+		"name": "needs: testing instructions revisions",
+		"color": "ffea00",
+		"default": false,
+		"description": "The issue has testing instructions that need to be revised."
+	},
+	{
+		"id": 2190477856,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODU2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20tests",
+		"name": "needs: tests",
+		"color": "ffea00",
+		"default": false,
+		"description": "The issue/PR needs tests before it can move forward."
+	},
+	{
+		"id": 2190477844,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODQ0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20triage%20feedback",
+		"name": "needs: triage feedback",
+		"color": "ffea00",
+		"default": false,
+		"description": "Issues for which we requested feedback from the author and received it."
+	},
+	{
+		"id": 927576824,
+		"node_id": "MDU6TGFiZWw5Mjc1NzY4MjQ=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/needs:%20votes",
+		"name": "needs: votes",
+		"color": "ffea00",
+		"default": false,
+		"description": "Feature request awaiting community feedback. [auto]"
+	},
+	{
+		"id": 3943184904,
+		"node_id": "LA_kwDOACFDUM7rCDoI",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/admin-e2e-tests",
+		"name": "package: @woocommerce/admin-e2e-tests",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/admin-e2e-tests"
+	},
+	{
+		"id": 2444919721,
+		"node_id": "MDU6TGFiZWwyNDQ0OTE5NzIx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/api",
+		"name": "package: @woocommerce/api",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/api package."
+	},
+	{
+		"id": 3288004282,
+		"node_id": "MDU6TGFiZWwzMjg4MDA0Mjgy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/api-core-tests",
+		"name": "package: @woocommerce/api-core-tests",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/api-core-tests package."
+	},
+	{
+		"id": 3943185990,
+		"node_id": "LA_kwDOACFDUM7rCD5G",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/components",
+		"name": "package: @woocommerce/components",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/components"
+	},
+	{
+		"id": 3943186555,
+		"node_id": "LA_kwDOACFDUM7rCEB7",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/csv-export",
+		"name": "package: @woocommerce/csv-export",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/csv-export"
+	},
+	{
+		"id": 3943187030,
+		"node_id": "LA_kwDOACFDUM7rCEJW",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/currency",
+		"name": "package: @woocommerce/currency",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/currency"
+	},
+	{
+		"id": 3943187529,
+		"node_id": "LA_kwDOACFDUM7rCERJ",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/customer-effort-score",
+		"name": "package: @woocommerce/customer-effort-score",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/customer-effort-score"
+	},
+	{
+		"id": 3943188171,
+		"node_id": "LA_kwDOACFDUM7rCEbL",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/data",
+		"name": "package: @woocommerce/data",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/data"
+	},
+	{
+		"id": 3943188773,
+		"node_id": "LA_kwDOACFDUM7rCEkl",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/date",
+		"name": "package: @woocommerce/date",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/date"
+	},
+	{
+		"id": 2444919724,
+		"node_id": "MDU6TGFiZWwyNDQ0OTE5NzI0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/e2e-core-tests",
+		"name": "package: @woocommerce/e2e-core-tests",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/e2e-core-tests package."
+	},
+	{
+		"id": 2444919717,
+		"node_id": "MDU6TGFiZWwyNDQ0OTE5NzE3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/e2e-environment",
+		"name": "package: @woocommerce/e2e-environment",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/e2e-environment package."
+	},
+	{
+		"id": 2444919726,
+		"node_id": "MDU6TGFiZWwyNDQ0OTE5NzI2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/e2e-utils",
+		"name": "package: @woocommerce/e2e-utils",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/e2e-utils package."
+	},
+	{
+		"id": 3943192770,
+		"node_id": "LA_kwDOACFDUM7rCFjC",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/eslint-plugin",
+		"name": "package: @woocommerce/eslint-plugin",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/eslint-plugin"
+	},
+	{
+		"id": 3943193285,
+		"node_id": "LA_kwDOACFDUM7rCFrF",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/experimental",
+		"name": "package: @woocommerce/experimental",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/experimental"
+	},
+	{
+		"id": 3943193792,
+		"node_id": "LA_kwDOACFDUM7rCFzA",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/explat",
+		"name": "package: @woocommerce/explat",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/explat"
+	},
+	{
+		"id": 4166897919,
+		"node_id": "LA_kwDOACFDUM74XdD_",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/extend-cart-checkout-block",
+		"name": "package: @woocommerce/extend-cart-checkout-block",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to @woocommerce/extend-cart-checkout-block package"
+	},
+	{
+		"id": 4188527483,
+		"node_id": "LA_kwDOACFDUM75p9t7",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/js-tests",
+		"name": "package: @woocommerce/js-tests",
+		"color": "db1c8e",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 3943194807,
+		"node_id": "LA_kwDOACFDUM7rCGC3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/navigation",
+		"name": "package: @woocommerce/navigation",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/navigation"
+	},
+	{
+		"id": 4188527487,
+		"node_id": "LA_kwDOACFDUM75p9t_",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/notices",
+		"name": "package: @woocommerce/notices",
+		"color": "db1c8e",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 3943195643,
+		"node_id": "LA_kwDOACFDUM7rCGP7",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/number",
+		"name": "package: @woocommerce/number",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/number"
+	},
+	{
+		"id": 3943196086,
+		"node_id": "LA_kwDOACFDUM7rCGW2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/onboarding",
+		"name": "package: @woocommerce/onboarding",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/onboarding"
+	},
+	{
+		"id": 4188527489,
+		"node_id": "LA_kwDOACFDUM75p9uB",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/style-build",
+		"name": "package: @woocommerce/style-build",
+		"color": "db1c8e",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 3943197174,
+		"node_id": "LA_kwDOACFDUM7rCGn2",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20@woocommerce/tracks",
+		"name": "package: @woocommerce/tracks",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/tracks"
+	},
+	{
+		"id": 3943191802,
+		"node_id": "LA_kwDOACFDUM7rCFT6",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/package:%20dependency-extraction-webpack-plugin",
+		"name": "package: dependency-extraction-webpack-plugin",
+		"color": "db1c8e",
+		"default": false,
+		"description": "issues related to @woocommerce/dependency-extraction-webpack-plugin"
+	},
+	{
+		"id": 3837257959,
+		"node_id": "LA_kwDOACFDUM7kt-jn",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/plugin:%20woocommerce",
+		"name": "plugin: woocommerce",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to the WooCommerce Core plugin."
+	},
+	{
+		"id": 3942461095,
+		"node_id": "LA_kwDOACFDUM7q_S6n",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/plugin:%20woocommerce%20beta%20tester",
+		"name": "plugin: woocommerce beta tester",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues related to the WooCommerce Beta Tester plugin."
+	},
+	{
+		"id": 1527804005,
+		"node_id": "MDU6TGFiZWwxNTI3ODA0MDA1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/priority:%20critical",
+		"name": "priority: critical",
+		"color": "d73a4a",
+		"default": false,
+		"description": "The issue is critical—e.g. a fatal error, security problem affecting many customers."
+	},
+	{
+		"id": 1527866622,
+		"node_id": "MDU6TGFiZWwxNTI3ODY2NjIy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/priority:%20high",
+		"name": "priority: high",
+		"color": "d93f0b",
+		"default": false,
+		"description": "The issue/PR is high priority—it affects lots of customers substantially, but not critically."
+	},
+	{
+		"id": 1527868600,
+		"node_id": "MDU6TGFiZWwxNTI3ODY4NjAw",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/priority:%20low",
+		"name": "priority: low",
+		"color": "e2f78c",
+		"default": false,
+		"description": "The issue/PR is low priority—not many people are affected or there’s a workaround, etc."
+	},
+	{
+		"id": 1362731954,
+		"node_id": "MDU6TGFiZWwxMzYyNzMxOTU0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/release:%20add%20changelog",
+		"name": "release: add changelog",
+		"color": "5804ea",
+		"default": false,
+		"description": "Mark all PRs that have not had their changelog entries added. [auto]"
+	},
+	{
+		"id": 1521898415,
+		"node_id": "MDU6TGFiZWwxNTIxODk4NDE1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/release:%20add%20testing%20instructions",
+		"name": "release: add testing instructions",
+		"color": "5804ea",
+		"default": false,
+		"description": "PRs that have not had testing instructions added to the wiki. [auto]"
+	},
+	{
+		"id": 1601245824,
+		"node_id": "MDU6TGFiZWwxNjAxMjQ1ODI0",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/release:%20cherry-pick",
+		"name": "release: cherry-pick",
+		"color": "5804ea",
+		"default": false,
+		"description": "Commits from this PR also needs to be added to current release branch."
+	},
+	{
+		"id": 2078446619,
+		"node_id": "MDU6TGFiZWwyMDc4NDQ2NjE5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/release:%20highlight",
+		"name": "release: highlight",
+		"color": "5804ea",
+		"default": false,
+		"description": "Issues that have a high user impact and need to be discussed/paid attention to."
+	},
+	{
+		"id": 3768767424,
+		"node_id": "LA_kwDOACFDUM7gotPA",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/run:%20daily%20tests",
+		"name": "run: daily tests",
+		"color": "3E4815",
+		"default": false,
+		"description": "Label to run daily smoke test workflow"
+	},
+	{
+		"id": 3342492559,
+		"node_id": "MDU6TGFiZWwzMzQyNDkyNTU5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/run:%20smoke%20tests",
+		"name": "run: smoke tests",
+		"color": "3E4815",
+		"default": false,
+		"description": "PR needs to have smoke tests run against it."
+	},
+	{
+		"id": 3837258103,
+		"node_id": "LA_kwDOACFDUM7kt-l3",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20awaiting%20triage",
+		"name": "status: awaiting triage",
+		"color": "327e91",
+		"default": false,
+		"description": "This is a newly created issue waiting for triage."
+	},
+	{
+		"id": 1323398819,
+		"node_id": "MDU6TGFiZWwxMzIzMzk4ODE5",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20awaiting%20upstream",
+		"name": "status: awaiting upstream",
+		"color": "327e91",
+		"default": false,
+		"description": "Upstream issue that needs to be fixed."
+	},
+	{
+		"id": 562982924,
+		"node_id": "MDU6TGFiZWw1NjI5ODI5MjQ=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20blocked",
+		"name": "status: blocked",
+		"color": "327e91",
+		"default": false,
+		"description": "The issue is blocked from progressing, waiting for another piece of work to be done."
+	},
+	{
+		"id": 4904651074,
+		"node_id": "LA_kwDOACFDUM8AAAABJFcJQg",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20bottleneck",
+		"name": "status: bottleneck",
+		"color": "F41C64",
+		"default": false,
+		"description": "blockers for other work"
+	},
+	{
+		"id": 643665147,
+		"node_id": "MDU6TGFiZWw2NDM2NjUxNDc=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20can't%20reproduce",
+		"name": "status: can't reproduce",
+		"color": "327e91",
+		"default": false,
+		"description": "Issues that can't be reproduced."
+	},
+	{
+		"id": 3837257992,
+		"node_id": "LA_kwDOACFDUM7kt-kI",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20developer%20reproduction",
+		"name": "status: developer reproduction",
+		"color": "327e91",
+		"default": false,
+		"description": "Bug reports that need to be reproduced and confirmed by a developer."
+	},
+	{
+		"id": 3942714565,
+		"node_id": "MDU6TGFiZWwzOTQyNzE0NTY1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20has%20feedback",
+		"name": "status: has feedback",
+		"color": "307121",
+		"default": false,
+		"description": null
+	},
+	{
+		"id": 390671514,
+		"node_id": "MDU6TGFiZWwzOTA2NzE1MTQ=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20in%20progress",
+		"name": "status: in progress",
+		"color": "327e91",
+		"default": false,
+		"description": "This is being worked on."
+	},
+	{
+		"id": 2585535608,
+		"node_id": "MDU6TGFiZWwyNTg1NTM1NjA4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20on%20hold",
+		"name": "status: on hold",
+		"color": "327e91",
+		"default": false,
+		"description": "The issue is currently not prioritized."
+	},
+	{
+		"id": 3837258045,
+		"node_id": "LA_kwDOACFDUM7kt-k9",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20prioritization",
+		"name": "status: prioritization",
+		"color": "327e91",
+		"default": false,
+		"description": "This issue is waiting for the owning team to assign a priority."
+	},
+	{
+		"id": 3315236222,
+		"node_id": "MDU6TGFiZWwzMzE1MjM2MjIy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20reproduction",
+		"name": "status: reproduction",
+		"color": "327e91",
+		"default": false,
+		"description": "Bug reports that need to be reproduced and confirmed."
+	},
+	{
+		"id": 2915434535,
+		"node_id": "MDU6TGFiZWwyOTE1NDM0NTM1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20stale",
+		"name": "status: stale",
+		"color": "327e91",
+		"default": false,
+		"description": "Issues that have no had any activity for some time."
+	},
+	{
+		"id": 8841835,
+		"node_id": "MDU6TGFiZWw4ODQxODM1",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/status:%20won't%20fix",
+		"name": "status: won't fix",
+		"color": "327e91",
+		"default": false,
+		"description": "The issue won’t be fixed."
+	},
+	{
+		"id": 3844183371,
+		"node_id": "LA_kwDOACFDUM7lIZVL",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/tool:%20monorepo%20infrastructure",
+		"name": "tool: monorepo infrastructure",
+		"color": "db1c8e",
+		"default": false,
+		"description": "Issues and PRs related to monorepo tooling."
+	},
+	{
+		"id": 3942714592,
+		"node_id": "MDU6TGFiZWwzOTQyNzE0NTky",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/tools",
+		"name": "tools",
+		"color": "b0228c",
+		"default": false,
+		"description": null
+	},
+	{
+		"id": 152990,
+		"node_id": "MDU6TGFiZWwxNTI5OTA=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20bug",
+		"name": "type: bug",
+		"color": "d73a4a",
+		"default": false,
+		"description": "The issue is a confirmed bug."
+	},
+	{
+		"id": 4648802448,
+		"node_id": "LA_kwDOACFDUM8AAAABFRcYkA",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20community%20contribution",
+		"name": "type: community contribution",
+		"color": "1d76db",
+		"default": false,
+		"description": ""
+	},
+	{
+		"id": 2585535611,
+		"node_id": "MDU6TGFiZWwyNTg1NTM1NjEx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20documentation",
+		"name": "type: documentation",
+		"color": "0075ca",
+		"default": false,
+		"description": "This issue is a request for better documentation."
+	},
+	{
+		"id": 2190477843,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODQz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20duplicate",
+		"name": "type: duplicate",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue/PR is a duplicate of another issue."
+	},
+	{
+		"id": 152992,
+		"node_id": "MDU6TGFiZWwxNTI5OTI=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20enhancement",
+		"name": "type: enhancement",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue is a request for an enhancement."
+	},
+	{
+		"id": 385850004,
+		"node_id": "MDU6TGFiZWwzODU4NTAwMDQ=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20epic",
+		"name": "type: epic",
+		"color": "0075ca",
+		"default": false,
+		"description": "Container issue with high-level description of work that will be done in sprint."
+	},
+	{
+		"id": 736870800,
+		"node_id": "MDU6TGFiZWw3MzY4NzA4MDA=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20good%20first%20issue",
+		"name": "type: good first issue",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue is a good candidate for the first community contribution/for a newcomer to the team."
+	},
+	{
+		"id": 2585535613,
+		"node_id": "MDU6TGFiZWwyNTg1NTM1NjEz",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20question",
+		"name": "type: question",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue is a question about how code works."
+	},
+	{
+		"id": 156591,
+		"node_id": "MDU6TGFiZWwxNTY1OTE=",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20refactor",
+		"name": "type: refactor",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue/PR is related to refactoring."
+	},
+	{
+		"id": 2190477851,
+		"node_id": "MDU6TGFiZWwyMTkwNDc3ODUx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20regression",
+		"name": "type: regression",
+		"color": "0075ca",
+		"default": false,
+		"description": "Issues that have been introduced by the code change that impacted existing functionality."
+	},
+	{
+		"id": 2335822611,
+		"node_id": "MDU6TGFiZWwyMzM1ODIyNjEx",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20support%20request",
+		"name": "type: support request",
+		"color": "0075ca",
+		"default": false,
+		"description": "Issues submitted that are not bugs or enhancements but support requests (both dev and non-dev)."
+	},
+	{
+		"id": 2009677618,
+		"node_id": "MDU6TGFiZWwyMDA5Njc3NjE4",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20task",
+		"name": "type: task",
+		"color": "0075ca",
+		"default": false,
+		"description": "The issue is an internally driven task (e.g. from another A8c team)."
+	},
+	{
+		"id": 2585535612,
+		"node_id": "MDU6TGFiZWwyNTg1NTM1NjEy",
+		"url": "https://api.github.com/repos/woocommerce/woocommerce/labels/type:%20technical%20debt",
+		"name": "type: technical debt",
+		"color": "0075ca",
+		"default": false,
+		"description": "This issue/PR represents/solves the technical debt of the project."
+	}
+]
