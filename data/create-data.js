@@ -60,7 +60,9 @@ const getIssues = async ( page ) => {
 					body: cleanIssueBody( issue.body ),
 					labels: issue.labels
 						.filter( removeStatusLabels )
-						.map( ( label ) => label.id ),
+						.map( ( label ) => label.id )
+						// Make sure identical combinations of labels are the same
+						.sort(),
 				};
 			} )
 			// Remove issues without labels
@@ -69,10 +71,10 @@ const getIssues = async ( page ) => {
 };
 
 const createJSONLFile = async ( pages ) => {
-	for ( let i = 29; i <= pages; i++ ) {
-		if ( i === 9 ) {
-			continue;
-		}
+	for ( let i = 1; i <= pages; i++ ) {
+		// if ( i === 9 ) {
+		// 	continue;
+		// }
 		console.log( `Fetching page ${ i }` );
 		const issues = await getIssues( i );
 		console.log( `Fetched ${ issues.length } issues` );
@@ -89,6 +91,6 @@ const createJSONLFile = async ( pages ) => {
 	}
 };
 
-createJSONLFile( 30 );
+createJSONLFile( 8 );
 
 // console.log(process.env.OPENAI_API_KEY);
