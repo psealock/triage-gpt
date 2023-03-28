@@ -41,12 +41,8 @@ const cleanIssueBody = ( body ) => {
 	);
 };
 
-const removeStatusLabels = ( label ) => {
-	return (
-		! /needs:/gm.test( label.name ) &&
-		! /status:/gm.test( label.name ) &&
-		! /type:/gm.test( label.name )
-	);
+const keepOnlyFocusLabels = ( label ) => {
+	return /focus:/gm.test( label.name );
 };
 
 const formatIssues = ( issue ) => {
@@ -80,7 +76,7 @@ const getIssues = async ( page ) => {
 					number: issue.number,
 					body: cleanIssueBody( issue.body ),
 					labels: issue.labels
-						.filter( removeStatusLabels )
+						.filter( keepOnlyFocusLabels )
 						.map( ( label ) => label.id )
 						// Make sure identical combinations of labels are the same
 						.sort(),
@@ -92,7 +88,14 @@ const getIssues = async ( page ) => {
 };
 
 const createJSONLFile = async ( pages ) => {
-	for ( let i = 29; i <= pages; i++ ) {
+	for ( let i = 1; i <= pages; i++ ) {
+		// For some reason, GH api doesn't like these pages
+		const pagesNotWorking = [ 9, 11, 13, 21, 22, 24, 25, 28 ];
+		if ( pagesNotWorking.includes( i ) ) {
+			console.log( `Skipping page ${ i }` );
+			console.log( '<------------------------->' );
+			continue;
+		}
 		console.log( `Fetching page ${ i }` );
 		const issues = await getIssues( i );
 		console.log( `Fetched ${ issues.length } issues` );
