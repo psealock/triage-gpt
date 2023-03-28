@@ -30,7 +30,7 @@ const removeStatusLabels = ( label ) => {
 
 const formatIssues = ( issue ) => {
 	return JSON.stringify( {
-		context: issue.body + '\n\n###\n\n',
+		prompt: issue.body + '\n\n###\n\n',
 		completion: ' ' + JSON.stringify( issue.labels ),
 	} );
 };
