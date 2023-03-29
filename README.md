@@ -4,20 +4,20 @@ A [Fine Tuned](https://platform.openai.com/docs/guides/fine-tuning) GPT-3 model 
 
 ## Usage
 
-You'll need an OpenAI key to make requests to the model and make sure the `OPENAI_API_KEY` variable is available.
+You'll need [an OpenAI key](https://platform.openai.com/account/api-keys) to make requests to the model and make sure the `OPENAI_API_KEY` variable is available.
 
 ```
 export OPENAI_API_KEY="<OPENAI_API_KEY>"
 ```
 
-Install dependencies
+Install dependencies.
 
 ```
 pip install --upgrade openai
 npm install
 ```
 
-Run the progam by feeding it an issue number
+Run the progam by feeding it an issue number.
 
 ```
 node index.js triage <IssueNumber>
