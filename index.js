@@ -3,6 +3,7 @@ const { cleanIssueBody } = require( './data/lib' );
 const util = require( 'node:util' );
 const exec = util.promisify( require( 'node:child_process' ).exec );
 const { Command } = require( 'commander' );
+const labels = require( './labels' );
 
 const octokit = new Octokit( {
 	auth: process.env.GITHUB_TOKEN,
@@ -55,21 +56,28 @@ program
 	.argument( '<issueNumber>', 'issue to triage' )
 	.action( async ( issueNumber ) => {
 		const completion = await getCompletion( issueNumber );
-		console.log( completion );
-		// const completion = '[3943425133] paul was here [3943425720]';
-
-		const regex = /\[(\d*)\]/gm;
+		const regex = /\[((\d|,)*)\]/gm;
 		let resultsArr = [];
 		const labelIds = [];
-
 		while ( ( resultsArr = regex.exec( completion ) ) !== null ) {
-			console.log( `Found label id ${ resultsArr[ 1 ] }` );
+			console.log( `Found label id(s) ${ resultsArr[ 1 ] }` );
 			labelIds.push( resultsArr[ 1 ] );
 		}
 		if ( labelIds.length === 0 ) {
 			console.log( 'No labels found' );
 			return;
 		}
+		const splitLabelIds = labelIds.reduce( ( acc, labelId ) => {
+			return acc.concat( labelId.split( ',' ) );
+		}, [] );
+		const focusLabels = labels
+			.filter( ( label ) => {
+				return splitLabelIds.includes( label.id.toString() );
+			} )
+			.map( ( label ) => {
+				return label.name;
+			} );
+		console.log( focusLabels );
 	} );
 
 program.parse(); //37416
