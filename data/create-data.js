@@ -25,7 +25,7 @@ const getIssues = async ( page ) => {
 			repo: 'woocommerce',
 			per_page: 100,
 			page,
-			state: 'closed',
+			state: 'open',
 		}
 	);
 
@@ -53,9 +53,11 @@ const getIssues = async ( page ) => {
 };
 
 const createJSONLFile = async ( pages ) => {
-	for ( let i = 1; i <= pages; i++ ) {
+	for ( let i = 14; i <= pages; i++ ) {
 		// For some reason, GH api doesn't like these pages
-		const pagesNotWorking = [ 9, 11, 13, 21, 22, 24, 25, 28 ];
+		// const pagesNotWorking = [ 9, 11, 13, 21, 22, 24, 25, 28, 31 ];
+		const pagesNotWorking = [ 2, 3, 5, 6, 7, 8, 9, 12, 13 ];
+		// const pagesNotWorking = [];
 		if ( pagesNotWorking.includes( i ) ) {
 			console.log( `Skipping page ${ i }` );
 			console.log( '<------------------------->' );
