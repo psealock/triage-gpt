@@ -5,6 +5,10 @@ const exec = util.promisify( require( 'node:child_process' ).exec );
 const { Command } = require( 'commander' );
 const labels = require( './labels' );
 
+const OPENAI_API_CURIE_400 =
+	'openai api completions.create -m curie:ft-personal-2023-03-28-04-32-35 -p';
+const OPENAI_API_ADA_1000 = '';
+
 const octokit = new Octokit( {
 	auth: process.env.GITHUB_TOKEN,
 } );
@@ -31,7 +35,7 @@ const getCompletion = async ( number ) => {
 	const issue = await getIssue( number );
 	console.log( `Issue #${ number } retrieved` );
 	const prompt = formatIssueIntoPrompt( issue );
-	const api = `openai api completions.create -m curie:ft-personal-2023-03-28-04-32-35 -p "${ prompt }"`;
+	const api = `${ OPENAI_API_CURIE_400 } "${ prompt }"`;
 
 	console.log( `Calling openai api` );
 
